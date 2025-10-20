@@ -94,6 +94,8 @@ Store performance metrics (when you are a store owner or manager)
 
 This information is stored locally or in Firebase Realtime Database under encrypted nodes tied to your user or store ID.
 
+We display a prominent in-app disclosure explaining the need for precise location before requesting permission, as required by Google Play. Background location, if used, is limited to active delivery routing in the Delivery and Transport apps and is disabled when not in use.
+
 #### c. Device and App Information
 
 To improve reliability and ensure security, Djowda may collect basic technical data:
