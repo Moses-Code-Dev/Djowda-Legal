@@ -18,11 +18,9 @@ Djowda operates as a platform connecting independent partners (e.g., stores, far
 
 The Djowda Project acts as the Data Controller for platform-level data, such as your account information, app analytics, and system logs.
 
-Our partners (e.g., the store you order from) act as independent Data Controllers for the data they need to fulfill their service (e.g., your order details and delivery address).
+Our partners (e.g., the store you order from) act as independent Data Controllers for the data they need to fulfill their service (e.g., your order details, delivery address, and any chat communications with you).
 
-In this context, the Djowda Platform acts as a Data Processor, securely passing your order information from you to the partner you have selected.
-
-This Privacy Policy governs all data for which the Djowda Project is a Controller or Processor.
+In this context, the Djowda Platform acts as a Data Processor, securely passing your order information from you to the partner you have selected. This Privacy Policy governs all data for which the Djowda Project is a Controller or Processor. We are not responsible for the privacy or security practices of our independent partners once they have received your data to fulfill their service.
 
 ### 1.3 Commitment
 
@@ -122,7 +120,11 @@ Precise Location Data (GPS): For components that require navigation, such as the
 
 In certain app components, you may voluntarily provide information related to requests for food assistance or to identify yourself as part of a vulnerable population. This is considered Sensitive Data.
 
-We collect this information only with your explicit consent and use it solely for the purpose of connecting you with food providers or support organizations within the Djowda ecosystem. This data is anonymized wherever possible and is never shared for advertising purposes.
+We collect this information only with your explicit consent and use it solely for the purpose of connecting you with food providers or support organizations within the Djowda ecosystem.
+
+Purpose Limitation: This sensitive data will never be used for any other purpose. It is explicitly excluded from all analytics, advertising profiles, or system improvement modeling.
+
+Strict Access Control: Access to this data is subject to our highest security protocols. It is strictly limited on a 'need-to-know' basis to verified partners (e.g., the specific food bank you are requesting from) for the sole purpose of fulfilling your request. This data is never shared for advertising purposes.
 
 #### f. Automatically Collected Non-Personal Data
 
@@ -135,6 +137,10 @@ Feature usage frequency
 Regional activity heatmaps (without identifying any individual)
 
 This helps us understand how different components are used and optimize system efficiency.
+
+### g. Communications Data 
+
+When you use the in-app chat panels to communicate with other users or partners (e.g., a store, a delivery agent, or a farmer), we collect the content of those messages. This includes the messages themselves, timestamps, and the recipient/sender identifiers. This data is used solely to facilitate and secure the communication and is stored securely on our servers (e.g., Firebase).
 
 ### 3.2 Special Note on Spatial Data
 
@@ -177,6 +183,8 @@ Operate and maintain the Djowda platform and its components (e.g., store, user, 
 
 Process orders, transactions, and deliveries between users and stores.
 
+Facilitate in-app communications (chat) between users and partners.
+
 Synchronize local and cloud data for real-time availability and communication.
 
 Authenticate users and manage session security.
@@ -213,7 +221,8 @@ All analytical processes respect privacy and avoid any personal identification.
 
 ### 4.4 Advertising and Funding
 
-Some Djowda components may include non-intrusive ads to fund ongoing open-source and non-profit development.
+Funding Transparency: Some Djowda components may include non-intrusive ads. We use advertising only as a necessary means to fund the platform's public infrastructure (e.g., servers, maintenance) and keep the core service free for all users, especially those who cannot pay.
+
 When active:
 
 Ads are delivered via trusted networks (e.g., Google AdMob) with explicit user consent.
@@ -222,7 +231,7 @@ You may opt out of personalized ads or disable ads entirely where supported.
 
 Ad data (like device identifiers or region-level info) is never stored or reused by Djowda outside ad delivery.
 
-Our goal is to ensure ads remain ethical, relevant, and optional.
+Future Goals: We are actively seeking grant-based and non-profit funding to reduce or eliminate our reliance on advertising. Our goal is to serve the community, not to profit from user data.
 
 ### 4.5 Security and Fraud Prevention
 
@@ -354,14 +363,13 @@ Links to third-party policies are provided in Section 10 (References & Contacts)
 
 ### 6.3 Open Source and Community Contributions
 
-As an open ecosystem, certain components of Djowda are publicly available under open-source licenses (AGPL or equivalent).
-However:
+As an open ecosystem, certain components of Djowda are publicly available under open-source licenses (AGPL or equivalent). However:
 
 Public code repositories contain no personal data.
 
 Community contributions (e.g., bug reports or feedback) are voluntary and may be publicly visible on platforms like GitHub.
 
-Users are advised not to share personal or sensitive data in open forums or public issue reports.
+Public Forum Warning: Users are advised not to share personal or sensitive data (such as your address, phone number, or account credentials) in open forums or public issue reports. Any information you voluntarily post in these public forums is public. We are not responsible for personal data that you choose to make public.
 
 ### 6.4 Legal Requirements
 
@@ -401,7 +409,7 @@ We apply multiple layers of technical and organizational safeguards to protect a
 
 ### 7.1 Encryption and Transmission Security
 
-All communication between apps, servers, and components occurs over encrypted HTTPS/TLS connections.
+All communication between apps, servers, and components, including all chat messages, occurs over encrypted HTTPS/TLS connections.
 
 Sensitive data (such as user IDs or store metadata) is stored in hashed or tokenized form whenever possible.
 
@@ -493,16 +501,19 @@ This includes basic profile details, store information, or delivery data that ma
 
 ### 8.3 Data Deletion and Account Removal
 
-You have the right to request full deletion of your data.
-When exercised:
+You have the right to request full deletion of your off-chain data. When exercised:
 
-All identifiable data linked to your account (orders, messages, logs) will be deleted or anonymized.
+All identifiable data linked to your account (orders, chat messages, logs) stored on our centralized servers (like Firebase) or your local device will be deleted or anonymized.
 
 Deletion is permanent and cannot be reversed.
 
 Certain minimal records may be retained temporarily if required for fraud prevention, dispute resolution, or legal compliance, and will be removed once the purpose is fulfilled.
 
 Users can also delete local data at any time by clearing app storage or uninstalling the app.
+
+Note on Chat Deletion: When you request data deletion, your copy of any chat messages stored on our servers will be deleted. However, this action does not delete the messages from the other participant's account or device, as they are part of that user's record.
+
+Note on Decentralized Data: Djowda is a decentralized ecosystem. Data that is stored 'off-chain' (on our servers or your local device) will be permanently deleted upon request. Data that you voluntarily write 'on-chain' (to a public blockchain or permanently pin to a decentralized network like IPFS, if this feature is used) is immutable by nature and cannot be deleted. To protect your privacy, we commit to never storing sensitive personal information (like your full name, exact address, or phone number) directly on an immutable public network.
 
 ### 8.4 Opting Out of Analytics and Ads
 
@@ -536,9 +547,9 @@ Access to the platform remains equitable and fair for all users.
 
 ### 8.7 Children’s Privacy
 
-Djowda is intended for general use and does not knowingly collect data from children under 13 (or the applicable age of consent).
-If such data is discovered, it will be promptly deleted.
-Parents or guardians may contact Djowda to request review or deletion of a child’s information.
+Our services are intended for a general audience and are not directed at children. You must be at least 16 years old (or the applicable age of digital consent in your country) to create an account.
+
+We do not knowingly collect personal information from children. If you are a parent or guardian and you become aware that your child has provided us with personal data without your consent, please contact us at privacy@djowda.org. If we become aware that we have collected personal data from a child without verification of parental consent, we will take steps to remove that information from our servers.
 
 ### 8.8 Exercising Your Rights
 
