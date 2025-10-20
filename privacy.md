@@ -12,9 +12,17 @@ We believe privacy is a fundamental right and treat all user data with respect, 
 
 This Privacy Policy applies to all Djowda components, including (but not limited to) the Store, User, Farmer, Delivery, Factory, Wholesaler, Restaurant, Seed Provider, and Transport apps. All are collectively referred to as the “Djowda Components”.
 
-### 1.2 Controller
+### 1.2 Controller and Processor
 
-Djowda operates as an open ecosystem project. Data collected within each component may be processed locally or by the relevant partner operating that component (e.g., a store or farmer). Each operator acts as an independent data controller for its specific operations.
+Djowda operates as a platform connecting independent partners (e.g., stores, farmers, and delivery agents) with users.
+
+The Djowda Project acts as the Data Controller for platform-level data, such as your account information, app analytics, and system logs.
+
+Our partners (e.g., the store you order from) act as independent Data Controllers for the data they need to fulfill their service (e.g., your order details and delivery address).
+
+In this context, the Djowda Platform acts as a Data Processor, securely passing your order information from you to the partner you have selected.
+
+This Privacy Policy governs all data for which the Djowda Project is a Controller or Processor.
 
 ### 1.3 Commitment
 
@@ -55,6 +63,7 @@ This Privacy Policy also applies to related backend systems, APIs, and websites 
 Djowda is built around a local-first and privacy-by-design philosophy. We collect only the data necessary for the platform to function, ensuring transparency and user control across all components.
 
 ### 3.1 Categories of Information
+
 #### a. Personal Information (User-Provided)
 
 Depending on the component you use, Djowda may collect limited personal details that you voluntarily provide, such as:
@@ -99,7 +108,21 @@ Approximate location or cell grid ID (for spatial features only — not precise 
 
 All such data is used solely for app stability and location-based discovery within your subscribed area.
 
-#### d. Automatically Collected Non-Personal Data
+#### d.Location Information
+
+Djowda collects two types of location data, depending on the app component and feature you are using:
+
+Approximate Location: For general discovery (like finding nearby stores), we map your position to a grid cell ID using the minMax99 spatial system.
+
+Precise Location Data (GPS): For components that require navigation, such as the Djowda Delivery and Djowda Transport apps, we collect real-time precise location data (GPS). This is essential for core features like delivery routing, calculating ETAs, and providing live order tracking to the user. This data is collected only with your explicit in-app consent.
+
+### e. Information for Assistance Requests (Sensitive Data)
+
+In certain app components, you may voluntarily provide information related to requests for food assistance or to identify yourself as part of a vulnerable population. This is considered Sensitive Data.
+
+We collect this information only with your explicit consent and use it solely for the purpose of connecting you with food providers or support organizations within the Djowda ecosystem. This data is anonymized wherever possible and is never shared for advertising purposes.
+
+#### f. Automatically Collected Non-Personal Data
 
 Djowda may automatically process aggregated or anonymized information to improve performance and analytics, including:
 
@@ -115,11 +138,13 @@ This helps us understand how different components are used and optimize system e
 
 Djowda uses a custom grid-based spatial system to identify nearby stores or farms. This method:
 
-Does not store or transmit precise GPS coordinates.
+Does not store or transmit precise GPS coordinates for general discovery.
 
 Only maps your general position to a grid cell ID (approximately 500m²).
 
 Ensures users and stores can interact locally without revealing exact locations.
+
+This grid system is our primary method for spatial awareness. Components that require precise navigation, such as the Delivery App, will collect precise GPS data as stated in Section 3.1.d and with your explicit, in-app consent.
 
 ### 3.3 – Data Collected for Advertising or Funding
 
@@ -531,13 +556,13 @@ We will verify your identity before processing your request and respond within t
 |-----|------------------------|
 | **Store App** | Manages inventory, orders, and store details |
 | **User App** | Handles user profiles, browsing, and orders |
-| **Delivery App** | Requires real-time location access for delivery routing |
+| **Delivery App** | Requires precise real-time location (foreground and/or background) for delivery routing and to show live progress to the user. This is a core feature and will be requested with an in-app prominent disclosure. |
 | **Farmer App** | May store crop and seed management data |
 | **Factory App** | Manages raw material procurement records |
 | **Restaurant App** | Handles ingredient orders and menu planning |
 | **Seed Provider App** | Manages seed catalog and inventory |
 | **Wholesaler App** | Tracks bulk orders and pricing |
-| **Transport App** | (Under development) May include route data and logistics |
+| **Transport App** | (Under development) Will require precise real-time location (foreground and/or background) for logistics tracking and route optimization. |
 
 ---
 
