@@ -4,11 +4,31 @@ _Last updated: [Month DD, YYYY]_
 ---
 
 ## 1. Introduction
-Welcome to the Djowda Ecosystem.  
-Djowda is a collective platform of interconnected mobile applications and services built to strengthen local food systems and empower communities through open technology.
+Welcome to Djowda, an open, community-driven ecosystem designed to strengthen the food supply chain through transparent, decentralized technology. This Privacy Policy explains how Djowda and its ecosystem applications (collectively, the “Djowda Platform”) collect, use, and protect your personal and non-personal information.
 
-This Privacy Policy explains how Djowda and its related apps handle personal and non-personal data.  
-By using any Djowda App or service, you agree to this policy.
+We believe privacy is a fundamental right and treat all user data with respect, security, and minimalism — collecting only what is necessary to provide our services.
+
+### 1.1 Scope
+
+This Privacy Policy applies to all Djowda components, including (but not limited to) the Store, User, Farmer, Delivery, Factory, Wholesaler, Restaurant, Seed Provider, and Transport apps. All are collectively referred to as the “Djowda Components”.
+
+### 1.2 Controller
+
+Djowda operates as an open ecosystem project. Data collected within each component may be processed locally or by the relevant partner operating that component (e.g., a store or farmer). Each operator acts as an independent data controller for its specific operations.
+
+### 1.3 Commitment
+
+Djowda does not sell or share user data for commercial purposes.
+
+Data collection is transparent and purpose-limited.
+
+Local data (on your device) remains under your control.
+
+Where possible, data is anonymized or aggregated before transmission.
+
+### 1.4 Policy Updates
+
+This policy may be updated as Djowda grows or integrates new features. Changes will be reflected in the Privacy Policy repository (djowda-legal) and, when required, notified in-app before taking effect.
 
 ---
 
@@ -32,37 +52,172 @@ This Privacy Policy also applies to related backend systems, APIs, and websites 
 
 ## 3. Information We Collect
 
-### a. Information You Provide
-Examples include:
-- Account and profile information (name, email, phone)
-- Store setup data, orders, and transaction details
-- Feedback, messages, or support requests
+Djowda is built around a local-first and privacy-by-design philosophy. We collect only the data necessary for the platform to function, ensuring transparency and user control across all components.
 
-### b. Information Collected Automatically
-Examples include:
-- App usage logs and crash data
-- Device and system information (model, OS version)
-- Basic analytics or performance metrics
+### 3.1 Categories of Information
+#### a. Personal Information (User-Provided)
 
-### c. Location Information
-Some Djowda apps (like Delivery and Store) may request location access to enable nearby discovery, delivery tracking, or local availability.
+Depending on the component you use, Djowda may collect limited personal details that you voluntarily provide, such as:
 
-### d. Optional or Contextual Data
-Examples include:
-- Uploaded product photos, images, or notes
-- Voluntary participation in community programs or studies
+Name or nickname
+
+Phone number or email address (for account or order communication)
+
+Delivery address or store location
+
+Optional profile photo or avatar
+
+Feedback or messages you submit through in-app forms
+
+These details are used solely to enable app functionality (e.g., order delivery, communication, or user support).
+
+#### b. Transactional Information
+
+Information related to your interactions within the ecosystem:
+
+Orders placed or received
+
+Items added to cart or inventory
+
+Order history, status updates, and payment confirmations
+
+Store performance metrics (when you are a store owner or manager)
+
+This information is stored locally or in Firebase Realtime Database under encrypted nodes tied to your user or store ID.
+
+#### c. Device and App Information
+
+To improve reliability and ensure security, Djowda may collect basic technical data:
+
+Device model, OS version, and app version
+
+Anonymous diagnostic logs and crash reports
+
+Connectivity data (e.g., network status)
+
+Approximate location or cell grid ID (for spatial features only — not precise GPS tracking)
+
+All such data is used solely for app stability and location-based discovery within your subscribed area.
+
+#### d. Automatically Collected Non-Personal Data
+
+Djowda may automatically process aggregated or anonymized information to improve performance and analytics, including:
+
+Session statistics
+
+Feature usage frequency
+
+Regional activity heatmaps (without identifying any individual)
+
+This helps us understand how different components are used and optimize system efficiency.
+
+### 3.2 Special Note on Spatial Data
+
+Djowda uses a custom grid-based spatial system to identify nearby stores or farms. This method:
+
+Does not store or transmit precise GPS coordinates.
+
+Only maps your general position to a grid cell ID (approximately 500m²).
+
+Ensures users and stores can interact locally without revealing exact locations.
+
+### 3.3 – Data Collected for Advertising or Funding
+
+To sustain the ongoing development and maintenance of the Djowda ecosystem, certain components may include limited advertising modules such as Google AdMob or equivalent networks.
+
+When these modules are active:
+
+Advertising SDKs may collect anonymous identifiers (e.g., device advertising ID), general usage data, and approximate location to display relevant ads.
+
+Users will be clearly informed and may choose to allow or limit personalized ads according to their preferences.
+
+Djowda will always comply with the Google Play Data Safety and GDPR/CCPA consent requirements, ensuring you can manage your ad and privacy settings at any time.
+
+Djowda does not sell personal information and does not share identifiable data with advertisers beyond what is required for ad delivery and measurement.
+
+Where possible, ads may be disabled in community or educational builds to maintain a non-commercial environment.
 
 ---
 
 ## 4. How We Use Your Information
-We use collected data to:
-- Operate, improve, and personalize our apps and services  
-- Process and deliver user orders or requests  
-- Communicate important updates or responses  
-- Maintain security and prevent fraud  
-- Analyze non-identifiable usage data for ecosystem improvement  
+Djowda processes information with the sole purpose of providing a functional, safe, and sustainable ecosystem. We apply the principle of data minimalism — meaning we only use the information necessary to deliver a feature or service.
 
-Djowda does **not** sell or rent your data to any third party.
+### 4.1 Service Functionality
+
+We use collected data to:
+
+Operate and maintain the Djowda platform and its components (e.g., store, user, farmer, delivery apps).
+
+Process orders, transactions, and deliveries between users and stores.
+
+Synchronize local and cloud data for real-time availability and communication.
+
+Authenticate users and manage session security.
+
+Personalize content such as localized offers or nearby store listings.
+
+Each component processes only the data required for its intended purpose.
+
+### 4.2 Communication
+
+We may use limited contact details (such as phone number or email) to:
+
+Send order updates, delivery confirmations, or support replies.
+
+Notify you of important service changes or policy updates.
+
+Respond to your feedback, bug reports, or data requests.
+
+Djowda never uses your contact information for mass marketing without explicit consent.
+
+### 4.3 Improvement and Research
+
+Aggregated or anonymized data helps us:
+
+Analyze system performance and user interaction patterns.
+
+Detect issues and optimize app speed, stability, and resource use.
+
+Improve spatial algorithms and matchmaking between stores, farmers, and users.
+
+Guide feature prioritization while maintaining ethical data use.
+
+All analytical processes respect privacy and avoid any personal identification.
+
+### 4.4 Advertising and Funding
+
+Some Djowda components may include non-intrusive ads to fund ongoing open-source and non-profit development.
+When active:
+
+Ads are delivered via trusted networks (e.g., Google AdMob) with explicit user consent.
+
+You may opt out of personalized ads or disable ads entirely where supported.
+
+Ad data (like device identifiers or region-level info) is never stored or reused by Djowda outside ad delivery.
+
+Our goal is to ensure ads remain ethical, relevant, and optional.
+
+### 4.5 Security and Fraud Prevention
+
+We use system and network data to:
+
+Prevent unauthorized access or abuse.
+
+Detect fraud, spam, or misuse of platform components.
+
+Enforce platform integrity and protect users and stores from malicious activity.
+
+All logs and monitoring data are stored securely and automatically purged after operational use.
+
+### 4.6 Legal and Compliance
+
+We may process data when necessary to:
+
+Comply with applicable laws, regulations, or court orders.
+
+Cooperate with authorities in cases of verified misuse or fraud.
+
+Fulfill user data requests under privacy regulations (e.g., GDPR, CCPA).
 
 ---
 
