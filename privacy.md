@@ -24,7 +24,9 @@ In this context, the Djowda Platform acts as a Data Processor, securely passing 
 
 ### 1.3 Commitment
 
-Djowda does not sell or share user data for commercial purposes.
+Djowda does not sell your personal data.
+
+We only share data with trusted partners when necessary to provide our services (like processing orders or displaying ads), as detailed in this policy.
 
 Data collection is transparent and purpose-limited.
 
@@ -92,8 +94,6 @@ Store performance metrics (when you are a store owner or manager)
 
 This information is stored locally or in Firebase Realtime Database under encrypted nodes tied to your user or store ID.
 
-We display a prominent in-app disclosure explaining the need for precise location before requesting permission, as required by Google Play. Background location, if used, is limited to active delivery routing in the Delivery and Transport apps and is disabled when not in use.
-
 #### c. Device and App Information
 
 To improve reliability and ensure security, Djowda may collect basic technical data:
@@ -115,6 +115,8 @@ Djowda collects two types of location data, depending on the app component and f
 Approximate Location: For general discovery (like finding nearby stores), we map your position to a grid cell ID using the minMax99 spatial system.
 
 Precise Location Data (GPS): For components that require navigation, such as the Djowda Delivery and Djowda Transport apps, we collect real-time precise location data (GPS). This is essential for core features like delivery routing, calculating ETAs, and providing live order tracking to the user. This data is collected only with your explicit in-app consent.
+
+We display a prominent in-app disclosure and request your consent before collecting precise location, as required by Google Play. Background location, if used, is limited to active delivery routing in the Delivery and Transport apps. This is a core feature for those apps, and it is disabled when not in use.
 
 ### e. Information for Assistance Requests (Sensitive Data)
 
@@ -166,7 +168,9 @@ Users will be clearly informed and may choose to allow or limit personalized ads
 
 Djowda will always comply with the Google Play Data Safety and GDPR/CCPA consent requirements, ensuring you can manage your ad and privacy settings at any time.
 
-Djowda does not sell personal information and does not share identifiable data with advertisers beyond what is required for ad delivery and measurement.
+Djowda does not sell personal information and does not share identifiable data with advertisers beyond what is required for ad delivery and measurement. 
+
+We do share device identifiers and approximate location with our ad partners (like Google AdMob) for the sole purpose of ad delivery and measurement on our platform, as allowed by your consent settings.
 
 Where possible, ads may be disabled in community or educational builds to maintain a non-commercial environment.
 
@@ -302,6 +306,7 @@ Typical retention timelines:
 Data Type	Retention Duration	Deletion Trigger
 Local user data (Room DB)	Until app removal or manual clear	User uninstall / clear data
 Order records (Firebase)	30–90 days after order completion	Automatic cleanup
+Chat Messages 30–90 days after last interaction Automatic cleanup
 Error & crash logs	Up to 30 days	Auto purge
 Communication metadata	90 days max	Auto purge
 Account data	Until user deletion request	Immediate upon confirmation
@@ -603,7 +608,7 @@ We will review all requests carefully and respond within 30 days, or sooner when
 
 ### 10.2 Responsible Entity
 
-Djowda operates as a non-commercial, community-driven ecosystem under the Djowda Initiative.
+The Djowda Project, as referenced in Section 1.2, is the responsible entity and data controller for platform-level data.
 Each app component (Store, User, Farmer, etc.) is part of this ecosystem, developed and maintained collaboratively by verified contributors.
 
 While data for specific services may be managed regionally, the privacy contact above represents the central coordination point for all data-related inquiries across the platform.
@@ -710,14 +715,6 @@ This Privacy Policy may be updated periodically.
 Updates will be reflected by the “Last Updated” date above and made publicly available on this repository.
 
 Significant changes may also be communicated through the apps directly.
-
----
-
-## 13. Contact Information
-For questions or privacy requests, contact:
-
-📧 **privacy@djowda.org**  
-🌐 https://github.com/Moses-Code-Dev/Djowda-Legal
 
 ---
 
